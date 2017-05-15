@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Bay Area Search Database</div>
+    <div class="address-bar">Team 8 | INFO 257 | Final Project</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">City Search Database</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/static/search.html">Search</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Results
+                    </h2>
+                    <hr>
+                    <form action="/search" class="col-md-10" method="POST">
+						<div class="row">
+			                <div class="col-md-12">
+			                    <table class="table">
+			                        <tr>
+			                            <th>Zipcode</th>
+			                             <th>City</th>
+			                             <th>Total</th>
+			                            <th>White</th>
+			                            <th>Black</th>
+			                            <th>Asian</th>
+			                            <th>Hispanic</th>
+			                        </tr>
+			                      
+			                         <tr>
+			                            <th>94702</th>
+			                            <th>Berkeley</th>
+			                            <th>17016</th>
+			                            <th>8134</th>
+			                            <th>3058</th>
+			                            <th>2553</th>
+			                            <th>2166</th>
+			                         </tr>
+
+									<tr>
+										<th>94703</th>
+										<th>Berkeley</th>
+										<th>21561</th>
+										<th>11780</th>
+										<th>2340</th>
+										<th>3043</th>
+										<th>2657</th>
+									
+									</tr>
+									<tr>
+										<th>94704</th>
+										<th>Berkeley</th>
+										<th>26573</th>
+										<th>11568</th>
+										<th>1326</th>
+										<th>9308</th>
+										<th>2821</th>
+									</tr>
+									
+									<tr>
+										<th>94705</th>
+										<th>Berkeley</th>
+										<th>13224</th>
+										<th>9474</th>
+										<th>388</th>
+										<th>1572</th>
+										<th>1347</th>
+									</tr>
+									
+									<tr>
+										<th>94707</th>
+										<th>Berkeley</th>
+										<th>12555</th>
+										<th>9466</th>
+										<th>235</th>
+										<th>1562</th>
+										<th>660</th>
+									</tr>
+									
+									<tr>
+										<th>94708</th>
+										<th>Berkeley</th>
+										<th>11071</th>
+										<th>8838</th>
+										<th>160</th>
+										<th>1060</th>
+										<th>498</th>
+									</tr>
+									
+									<tr>
+										<th>94709</th>
+										<th>Berkeley</th>
+										<th>11866</th>
+										<th>7001</th>
+										<th>207</th>
+										<th>2755</th>
+										<th>1343</th>
+									</tr>
+									
+									<tr>
+										<th>94710</th>
+										<th>Berkeley</th>
+										<th>6802</th>
+										<th>3156</th>
+										<th>967</th>
+										<th>526</th>
+										<th>1809</th>
+									</tr>
+									
+									<tr>
+										<th>94720</th>
+										<th>Berkeley</th>
+										<th>3087</th>
+										<th>1011</th>
+										<th>51</th>
+										<th>1425</th>
+										<th>447</th>
+			                        </tr>
+			                        
+			                    </table>
+			                </div>
+			            </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
